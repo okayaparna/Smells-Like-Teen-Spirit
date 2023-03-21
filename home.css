@@ -26,9 +26,6 @@ z-index: -100;
     z-index:+100;
 }
 
-#text-wrapper{
-    padding: 10%;
-}
 
 .text{
    font-family: 'GT Pressura Mono Trial';
@@ -36,7 +33,11 @@ z-index: -100;
     font-weight: 300;
     font-size: 20px;
     line-height: 20px;
-    /* text-align: justify; */
+    text-align: justify;
+}
+
+#text-wrapper{
+    padding-right: 10%;
 }
 
 @media(max-width:500px){
@@ -79,15 +80,11 @@ z-index: -100;
 
 @media(min-width:700px){
     #cigg-wrapper{
-        /* padding-left: 20%;
-    padding-top: 0%;
-    z-index: -100; */
- position: absolute;
-width: 714px;
-height: 886px;
-left: 131px;
-top: 121px;
-
+    position: absolute;
+    width: 714px;
+    height: 886px;
+    left: 131px;
+    top: 121px;
     }
     .title{
         font-size: 40px;
@@ -116,7 +113,7 @@ top: 221px;
     }    
     #text-wrapper{
         position: absolute;
-        width: 320px;
+        width: 420px;
         height: 151px;
         left: 1026px;
         top: 780px;
