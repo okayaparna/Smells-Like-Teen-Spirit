@@ -44,6 +44,11 @@ z-index: -100;
     #cigg-wrapper{
         margin-left: -300px;
     }
+    .title{
+        font-size: 20px;
+    padding-left: 30%;
+    margin-right: -30%;
+    }
     .cigg{ 
         width: 25rem;
         height: 30rem;
@@ -79,12 +84,12 @@ z-index: -100;
     margin-top: -5%;
     padding-bottom: 10%;
 }
+#text-wrapper{
+    padding-left: 10%;
+    margin-right: -35%;
 }
-/* @media(min-width:700px){
-    #condom-wrapper{
-        transform: rotate(-39.67deg);
-        }
-    } */
+}
+
 
 @media(min-width:700px){
     #cigg-wrapper{
