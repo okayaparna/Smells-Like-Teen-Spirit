@@ -65,21 +65,21 @@ z-index: -100;
     margin-left: -30%;
     margin-top: -80%;
 }
-}
+
 .gum{
     width: 7rem;
     height: 7rem;
     margin-left: 20%;
     margin-top: -95%;
 }
-.playlist{
+.cd{
     width: 27rem;
     height: 27rem;
     margin-left: -25%;
     margin-top: -5%;
     padding-bottom: 10%;
 }
-
+}
 /* @media(min-width:700px){
     #condom-wrapper{
         transform: rotate(-39.67deg);
