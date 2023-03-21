@@ -71,21 +71,18 @@ z-index: -100;
     margin-top: -95%;
 }
 }
-@media(min-width:700px){
+/* @media(min-width:700px){
     #condom-wrapper{
         transform: rotate(-39.67deg);
-
-        /* transform: translate(300px, -1000px); */
         }
-    }
+    } */
 
-@media(min-width:1000px){
+@media(min-width:700px){
     #cigg-wrapper{
         /* padding-left: 20%;
     padding-top: 0%;
     z-index: -100; */
-
-    position: absolute;
+ position: absolute;
 width: 714px;
 height: 886px;
 left: 131px;
