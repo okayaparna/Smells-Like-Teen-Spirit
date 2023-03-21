@@ -1,0 +1,138 @@
+/* font-family: 'GT Pressura Mono', sans-serif; */
+                                                
+.title{
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#images{
+    padding-left: 15%;
+}
+.cigg{
+width: 714px;
+height: 886px;
+}
+
+#cigg-wrapper{
+    padding-left: 15%;
+padding-top: 0%;
+z-index: -100;
+}
+#condom-wrapper{
+    z-index: +100;
+}
+#fake-id-wrapper{
+    z-index:+100;
+}
+
+#text-wrapper{
+    padding: 10%;
+}
+
+.text{
+   font-family: 'GT Pressura Mono Trial';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+@media(max-width:500px){
+    #cigg-wrapper{
+        margin-left: -300px;
+    }
+    .cigg{ 
+        width: 25rem;
+        height: 30rem;
+        padding-left: 30%;
+    
+        }
+    .title{
+        font-size: 20px;
+    }
+.condom{
+    width: 25rem;
+    height: 25rem;
+    margin-left: -30%;
+    margin-top: -50%;
+}
+.fake-id{
+    width: 27rem;
+    height: 32rem;
+    margin-left: -30%;
+    margin-top: -95%;
+}
+.gum{
+    width: 7rem;
+    height: 7rem;
+    margin-left: 20%;
+    margin-top: -95%;
+}
+}
+@media(min-width:700px){
+    #condom-wrapper{
+        transform: rotate(-39.67deg);
+
+        /* transform: translate(300px, -1000px); */
+        }
+    }
+
+@media(min-width:1000px){
+    #cigg-wrapper{
+        /* padding-left: 20%;
+    padding-top: 0%;
+    z-index: -100; */
+
+    position: absolute;
+width: 714px;
+height: 886px;
+left: 131px;
+top: 121px;
+
+    }
+    .title{
+        font-size: 40px;
+    }
+    #condom-wrapper{
+        position: absolute;
+        width: 381.6px;
+        height: 510.14px;
+        left: 588.28px;
+        top: 221.58px;
+    }
+    #fake-id-wrapper{
+        position: absolute;
+        width: 619.66px;
+        height: 826.22px;
+        left: -75px;
+        top: 306.61px;
+    }
+    #gum-wrapper{
+        position: absolute;
+width: 169.22px;
+height: 185.08px;
+left: 574.53px;
+top: 221px;
+
+    }    
+    #text-wrapper{
+        position: absolute;
+        width: 320px;
+        height: 151px;
+        left: 1026px;
+        top: 780px;
+    }
+}
+
+
+
+@media(min-width:1440px){
+    #cigg-wrapper{
+        padding-left: 15%;
+    padding-top: 10%;
+    }
+
+
+    }
