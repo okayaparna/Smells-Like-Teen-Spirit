@@ -33,10 +33,10 @@ z-index: -100;
 .text{
    font-family: 'GT Pressura Mono Trial';
     font-style: normal;
-    font-weight: 350;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    /* text-align: justify; */
 }
 
 @media(max-width:500px){
