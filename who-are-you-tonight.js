@@ -3,25 +3,35 @@ function display_random_image()
      var theImages = [{
        src: "fake-1.png",
         width: "500",
-        height: "343"
+        height: "343",
+        left: "267px",
+        top: "276px"
     }, {
         src: "fake-2.png",
         width: "500",
-        height: "343"
+        height: "343",
+        left: "267px",
+        top: "276px"
     }, {
         src: "fake-3.png",
         width: "500",
-        height: "343"
+        height: "343",
+        left: "267px",
+        top: "276px"
     },
     {
         src: "fake-4.png",
         width: "500",
-        height: "343"
+        height: "343",
+        left: "267px",
+        top: "276px"
     },
     {
         src: "fake-5.png",
         width: "500",
-        height: "343"
+        height: "343",
+        left: "267px",
+        top: "276px"
     }];
     
     var preBuffer = [];

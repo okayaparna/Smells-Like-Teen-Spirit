@@ -1,0 +1,99 @@
+img {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #jsstyle{
+    background-color: red;
+    font-family: 'GT Pressura Mono', sans-serif; 
+    font-size: 100x;
+    color: white;
+    padding: 5%;
+    justify-content: center;
+    text-align: center;
+    border:0;
+    border-radius: 30px;
+
+  }
+
+  .text{
+    font-family: 'GT Pressura Mono', sans-serif;
+  }
+
+@media (min-width: 1000px)  {
+  #bg-1-wrapper{
+    position: absolute;
+width: 1330px;
+height: 576px;
+left: 61px;
+top: -456px;
+  }
+#button-wrapper{
+  position: fixed;
+  width: 290px;
+  height: 90px;
+  left: 600px;
+  top: 180px;
+}
+  .big-text-1{
+    font-family: 'GT Pressura Mono', sans-serif; 
+font-weight: 400;
+font-size: 128px;
+display: flex;
+align-items: center;
+text-align: center;
+  }
+.name-wrapper{
+  position: fixed;
+  position: absolute;
+  width: 264px;
+  height: 69px;
+  left: 267px;
+  top: 195px;
+}
+.age-wrapper{
+  position: fixed;
+  position: absolute;
+  width: 264px;
+  height: 69px;
+  left: 922px;
+  top: 199px;
+  
+}
+.place-wrapper{
+position: fixed;
+position: absolute;
+width: 264px;
+height: 69px;
+left: 275px;
+top: 863px;
+
+}
+.smoke-wrapper{
+  position: fixed;
+  position: absolute;
+  width: 264px;
+  height: 69px;
+  left: 938px;
+  top: 865px;
+}
+}
+
+
+.link{
+  color: black;
+  font-family: 'GT Pressura Mono', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+font-size: 20px;  
+transition-duration: 0.5s;
+
+  }
+
+  @media(max-width:500px){
+    #background-text{
+      display: none;
+    }
+  }
