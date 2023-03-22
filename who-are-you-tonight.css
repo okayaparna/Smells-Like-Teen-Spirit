@@ -20,7 +20,7 @@ img {
     font-family: 'GT Pressura Mono', sans-serif;
   }
 
-@media (min-width: 1000px)  {
+@media (min-width: 700px)  {
   #bg-1-wrapper{
     position: absolute;
 width: 1330px;
@@ -69,13 +69,16 @@ left: 275px;
 top: 863px;
 
 }
-.smoke-wrapper{
+.smoke-wrapper-1{
   position: fixed;
   position: absolute;
   width: 264px;
   height: 69px;
   left: 938px;
   top: 865px;
+}
+.smoke-wrapper-2{
+  display: none;
 }
 }
 
@@ -94,6 +97,57 @@ transition-duration: 0.5s;
 
   @media(max-width:500px){
     #background-text{
-      display: none;
+    opacity: 50%;
+    z-index: -1;
+
+      height: 100%;
+      text-align: center;
+      
+      /* animation properties */
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      
+      -moz-animation: my-animation 5s linear infinite;
+      -webkit-animation: my-animation 5s linear infinite;
+      animation: my-animation 5s linear infinite;
     }
-  }
+    
+    /* for Firefox */
+    @-moz-keyframes my-animation {
+      from { -moz-transform: translateY(100%); }
+      to { -moz-transform: translateY(-100%); }
+    }
+    
+    /* for Chrome */
+    @-webkit-keyframes my-animation {
+      from { -webkit-transform: translateY(100%); }
+      to { -webkit-transform: translateY(-100%); }
+    }
+    
+    @keyframes my-animation {
+      from {
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+      }
+      to {
+        -moz-transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+      }
+    }
+
+    #button-wrapper{
+      padding-left: 20%;
+      z-index: +1;
+    }
+
+    .smoke-wrapper-2{
+      display: block;
+      padding-top: 110%;
+    text-align: center;
+    }
+
+    }
+  
