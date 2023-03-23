@@ -1,0 +1,78 @@
+@media(min-width: 700px){
+#marlboro-wrapper{
+    position: absolute;
+width: 798.88px;
+height: 991.32px;
+left: 557px;
+top: 339.38px;
+}
+
+.marlboro{
+    transform: rotate(-11.8deg);
+}
+
+#newport-wrapper{
+    position: absolute;
+width: 702.73px;
+height: 702.73px;
+left: 64.81px;
+top: 121px;
+}
+
+.newport{
+    transform: rotate(8.49deg);
+    width: 700px;
+}
+
+#camel-wrapper{
+    position: absolute;
+    width: 669px;
+    height: 669px;
+    left: 80.99px;
+    top: 1050px;
+}
+.camel{
+    transform: rotate(1.46deg);
+}
+
+#cancer-wrapper{
+    position: absolute;
+    width: 670px;
+    height: 670px;
+    left: 700px;
+    top: 1373.81px;
+}
+.cancer{
+    transform: rotate(-8.91deg);
+    width: 600px;
+}
+
+#lucky-strike-wrapper{
+    position: absolute;
+    width: 572px;
+    height: 788px;
+    left: 324px;
+    top: 1841px;
+}
+.lucky-strike{
+
+}
+}
+
+@media(max-width:500px){
+
+.marlboro{
+    width: 1000px;
+    height: 1200px;
+}
+.camel{
+    width: 895.61px;
+    height: 895.61px;
+}
+
+.lucky-strike{
+    width: 750px;
+}
+
+
+}
