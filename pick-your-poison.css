@@ -60,7 +60,10 @@ top: 121px;
 }
 
 @media(max-width:500px){
-
+.newport{
+    width: 1000px;
+    height: 1000px;
+}
 .marlboro{
     width: 1000px;
     height: 1200px;

@@ -1,0 +1,35 @@
+#id-container{
+    padding: 20%;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+    text-align: center;
+}
+
+.text{
+    font-family: 'GT Pressura Mono', sans-serif; 
+}
+
+.button-style{
+background-color: red;
+color: white;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44%;
+    text-align: end;
+}
+
+#id-images{
+    padding: 5%;
+    height: 350px;
+    width: 500px;
+    background-color:red;
+    margin-left: 10%;
+    border-radius: 25px;
+}
