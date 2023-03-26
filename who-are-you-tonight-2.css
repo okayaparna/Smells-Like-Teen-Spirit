@@ -13,9 +13,15 @@
     font-family: 'GT Pressura Mono', sans-serif; 
 }
 
-.button-style{
-background-color: red;
+#button-style{
+/* background-color: red; */
 color: white;
+background-color: black;
+padding: 10%;
+border-radius: 25px;
+
+border-style: solid;
+border-color: black;
 }
 
 #footer{
@@ -32,4 +38,6 @@ color: white;
     background-color:red;
     margin-left: 10%;
     border-radius: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
