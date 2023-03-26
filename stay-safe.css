@@ -48,7 +48,8 @@
   }
   
   .album {
-    border: 1px solid #595959;
+    /* border: 1px solid #595959; */
+    border: 1px solid transparent;
     border-radius: 7px;
     background-color: white;
     backdrop-filter: blur(4px);
