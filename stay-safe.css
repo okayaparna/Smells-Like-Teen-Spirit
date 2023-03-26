@@ -60,3 +60,17 @@
     border-radius: 4px;
     margin-bottom: 20px;
   }
+
+  @media(max-width:500px){
+    #albums-list {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-bottom: 100px;
+      }
+      h1 {
+        font-size: 60px;
+      }
+  }
