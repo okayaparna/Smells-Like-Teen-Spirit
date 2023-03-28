@@ -71,7 +71,7 @@ const albums =
       "cover_image_url": "https://www.condomdepot.com/content/product/large/Trojan-Magnum-Lubricated-Condom.jpg"
     },
     {
-      "name": "Ultra Sensitive Condomes",
+      "name": "Ultra Sensitive Condoms",
       "brand": "LifeStyles",
       "cost": "$$$",
       "features": "extremely comfortable, thin yet durable, good for sensitive skin",
