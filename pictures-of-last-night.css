@@ -131,7 +131,17 @@ top: 2700px;
 border-radius: 35px;
 padding: 7%;
 }
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'GT Pressura Mono', sans-serif; }
 
+    a:hover{
+        font-size: larger;
+        transition: 0.5s;
+    }
 @media(max-width:500px){
     .title{
         display: block;

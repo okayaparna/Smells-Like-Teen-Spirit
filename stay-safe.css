@@ -107,7 +107,6 @@
   }
 
   a:-webkit-any-link {
-    color: black;
     cursor: pointer;
     text-decoration: none;
     display: block;
@@ -116,7 +115,6 @@
 
     a:hover{
         font-size: larger;
-        color: red;
         transition: 0.5s;
     }
 
@@ -146,8 +144,10 @@
     position: absolute;
 width: 403px;
 height: 103px;
-left: 50vw;
-top: 2700px;
+padding-left: 40%;
+top: 2500px;
+padding-bottom: 10%;
+width:fit-content;
 }
 .linktohome{
     background: #FF0000;
