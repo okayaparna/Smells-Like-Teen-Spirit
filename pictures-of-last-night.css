@@ -1,8 +1,13 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 .title{
     font-family: 'GT Pressura Mono', sans-serif;
     font-size: 30px;
     text-align: center;
 }
+
 @media(max-width:500px){
     .title{
         font-size: 20px;
@@ -18,4 +23,74 @@
         width: 1440px;
         z-index: -100;
     }
+}
+
+
+.show-box {
+    width: 30vw;
+    /* height: 80vh; */
+    border: 4px ridge #d8d8d8;
+    position: absolute !important;
+    top: 14vh;
+    left: 15vw;
+    z-index: 11000;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.show-box .windows-header-wrapper {
+    padding: 2px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.windows-header-wrapper {
+    padding: 2px;
+    background: rgb(51,78,165);
+    background: linear-gradient(90deg, rgba(51,78,165,1) 0%, rgba(76,127,193,1) 100%);
+    position: relative;
+    top: -30px;
+} 
+
+.show-box .windows-header-wrapper .window-title {
+    font-family: 'GT Pressura Mono', sans-serif;
+}
+.window-title {
+    font-size: 0.75vw;
+    line-height: 1.2vw;
+    color: #fff;
+    width: calc(100% - 120px);
+    float: left;
+    text-align: left;
+}
+.window-icons {
+    text-align: right;
+    float: left;
+    width: 120px;
+}
+.window-icons img {
+    height: 0.8vw;
+    margin-top: 0.1vw;
+    margin-left: 3px;
+    border: 1px outset #dad7d2;
+    cursor: pointer;
+}
+img, object, embed {
+    max-width: 100%;
+}
+
+.show-box .look-content {
+    height: 90vh;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none !important;
+}
+::selection {
+    background: #ccc;
+    color: #000;
+    text-shadow: none;
 }
