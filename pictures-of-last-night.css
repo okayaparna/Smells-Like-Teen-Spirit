@@ -8,23 +8,6 @@
     text-align: center;
 }
 
-@media(max-width:500px){
-    .title{
-        font-size: 20px;
-    padding-left: 30%;
-    margin-right: -30%;
-    }
-}
-
-@media(min-width:700px){
-    body{
-        background-image: url(pictures-bg.png);
-        height: 2910px;
-        width: 1440px;
-        z-index: -100;
-    }
-}
-
 
 .show-box {
     width: 30vw;
@@ -39,14 +22,31 @@
     text-align: center;
     background-color: #fff;
 }
-
+.show-box-2 {
+    width: 30vw;
+    /* height: 80vh; */
+    border: 4px ridge #d8d8d8;
+    position: absolute !important;
+    top: 30vh;
+    left: 55vw;
+    z-index: 11000;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #fff;
+}
 .show-box .windows-header-wrapper {
     padding: 2px;
     position: absolute;
     width: 100%;
     top: 0;
 }
-
+.show-box-2 .windows-header-wrapper {
+    padding: 2px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
 .windows-header-wrapper {
     padding: 2px;
     background: rgb(51,78,165);
@@ -57,6 +57,11 @@
 
 .show-box .windows-header-wrapper .window-title {
     font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 14px;
+}
+.show-box-2 .windows-header-wrapper .window-title {
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 14px;
 }
 .window-title {
     font-size: 0.75vw;
@@ -86,11 +91,35 @@ img, object, embed {
     height: 90vh;
     overflow: scroll;
 }
-::-webkit-scrollbar {
-    display: none !important;
+.show-box-2 .look-content {
+    height: 90vh
+vh
+;
+    overflow: scroll;
 }
+
 ::selection {
     background: #ccc;
     color: #000;
     text-shadow: none;
+}
+
+
+@media(max-width:500px){
+    .title{
+        font-size: 20px;
+    padding-left: 30%;
+    margin-right: -30%;
+    }
+    .show-box {
+        width: 70vw;}
+}
+
+@media(min-width:700px){
+    body{
+        background-image: url(pictures-bg.png);
+        height: 2910px;
+        width: 1440px;
+        z-index: -100;
+    }
 }
