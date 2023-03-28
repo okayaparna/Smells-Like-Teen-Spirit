@@ -103,8 +103,6 @@ z-index: -100;
 }
 }
 
-
-
 @media(min-width:700px){
     #cigg-wrapper{
     position: absolute;
@@ -164,8 +162,6 @@ padding-bottom: 10%;
     }
 }
 
-
-
 @media(min-width:1440px){
     #cigg-wrapper{
         padding-left: 15%;
@@ -179,5 +175,4 @@ padding-bottom: 10%;
         top: 871px;
 
     } 
-
     }
