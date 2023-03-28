@@ -3,22 +3,23 @@
   }
   
   #scroll-container {
-    /* border: 3px solid black;
-    border-radius: 5px; */
     overflow: hidden;
-    padding-bottom:10%;
-    padding-top: 10%;
+    padding-bottom:5%;
+    padding-top: 5%;
+    position: sticky;
   }
   
   #scroll-text {
+    font-size: 40px;
+
     /* animation properties */
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 10s linear infinite;
+    animation: my-animation 10s linear infinite;
   }
   
   /* for Firefox */
