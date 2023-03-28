@@ -6,6 +6,18 @@
     text-align: center;
 }
 
+.text{
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+#text-wrapper{
+    padding-right: 10%;
+}
 #images{
     padding-left: 15%;
 }
@@ -24,20 +36,6 @@ z-index: -100;
 }
 #fake-id-wrapper{
     z-index:+100;
-}
-
-
-.text{
-    font-family: 'GT Pressura Mono', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: justify;
-}
-
-#text-wrapper{
-    padding-right: 10%;
 }
 
 .highlight-link{
