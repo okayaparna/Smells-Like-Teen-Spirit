@@ -4,8 +4,20 @@
     line-height: 0.95;
     letter-spacing: -0.04em;
     text-align: center;
-
-
+}
+header{
+    font-size: 50px;
+    font-family: 'GT Pressura Mono', sans-serif;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 0 0 1em;
+    padding-top: 1em;
+}
+.linktonext{
+    color: red;
 }
 
 
@@ -135,22 +147,10 @@ a:-webkit-any-link {
     text-align: center;
     font-family: 'GT Pressura Mono', sans-serif; }
 
-}
-
-header{
-    font-size: 20px;
-    font-family: 'GT Pressura Mono', sans-serif;
-    line-height: 0.95;
-    letter-spacing: -0.04em;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    margin: 0 0 1em;
-    padding-top: 1em;
+    header{
+        padding-left: 50%;
+        width: 600px;
+    }
 }
 
 
-
-.linktonext{
-    color: red;
-}
