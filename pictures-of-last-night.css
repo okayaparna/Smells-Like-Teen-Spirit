@@ -2,8 +2,6 @@
     box-sizing: inherit;
 }
 
-
-
 .show-box {
     width: 30vw;
     /* height: 80vh; */
@@ -119,7 +117,20 @@ img, object, embed {
     color: #000;
     text-shadow: none;
 }
-
+#link-wrapper{
+    position: absolute;
+width: 403px;
+height: 103px;
+left: 50vw;
+top: 2700px;
+}
+.linktohome{
+    background: #FF0000;
+    color: white;
+    font-family: 'GT Pressura Mono', sans-serif;
+border-radius: 35px;
+padding: 7%;
+}
 
 @media(max-width:500px){
     .title{
@@ -129,7 +140,7 @@ img, object, embed {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-}
+
     }
     .show-box {
         width: 70vw;}
@@ -166,4 +177,5 @@ img, object, embed {
     .title{
         display: none;
     }
+
 }
