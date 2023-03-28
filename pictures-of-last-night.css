@@ -128,12 +128,24 @@ img, object, embed {
 
 @media(max-width:500px){
     .title{
+        display: bloack;
         font-size: 20px;
     padding-left: 30%;
     margin-right: -30%;
     }
     .show-box {
         width: 70vw;}
+  .show-box-2{
+    top: 80vh;
+    left: 15vw;
+    width: 70vw;
+  }  
+  .show-box-3{
+    top: 130vh;
+    left: 15vw;
+    width: 70vw;
+  }  
+
 }
 
 @media(min-width:700px){
@@ -142,5 +154,8 @@ img, object, embed {
         height: 2910px;
         width: 1440px;
         z-index: -100;
+    }
+    .title{
+        display: none;
     }
 }
