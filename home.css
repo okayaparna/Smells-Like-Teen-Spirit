@@ -171,6 +171,13 @@ padding-bottom: 10%;
         padding-left: 15%;
     padding-top: 10%;
     }
+    #photo-wrapper{
+        position: absolute;
+        width: 169.22px;
+        height: 185.08px;
+        left: 674.53px;
+        top: 871px;
 
+    } 
 
     }
