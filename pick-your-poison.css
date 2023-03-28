@@ -43,7 +43,7 @@ left: 557px;
 top: 339.38px;
 }
 .end-note-wrapper{
-    top: 2700px;
+    top: 2500px;
     left: 300px;
     padding-top: 1em;
     position:absolute;
@@ -110,12 +110,11 @@ transition: 0.25s;
     top: 1841px;
 }
 
-}
 .lucky-strike:hover{
     filter:invert(100);
     transition: 0.25s;
     }
-
+}
 
 @media(max-width:500px){
 .newport{
