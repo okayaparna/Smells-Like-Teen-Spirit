@@ -28,7 +28,7 @@ z-index: -100;
 
 
 .text{
-   font-family: 'GT Pressura Mono Trial';
+    font-family: 'GT Pressura Mono', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
