@@ -10,7 +10,10 @@ top: 339.38px;
 .marlboro{
     transform: rotate(-11.8deg);
 }
-
+.marlboro:hover{
+    filter:invert(100);
+    transition: 0.25s;
+    }
 #newport-wrapper{
     position: absolute;
 width: 702.73px;
@@ -24,6 +27,11 @@ top: 121px;
     width: 700px;
 }
 
+.newport:hover{
+filter:invert(100);
+transition: 0.25s;
+}
+
 #camel-wrapper{
     position: absolute;
     width: 669px;
@@ -34,7 +42,10 @@ top: 121px;
 .camel{
     transform: rotate(1.46deg);
 }
-
+.camel:hover{
+    filter:invert(100);
+    transition: 0.25s;
+    }
 #cancer-wrapper{
     position: absolute;
     width: 670px;
@@ -46,7 +57,10 @@ top: 121px;
     transform: rotate(-8.91deg);
     width: 600px;
 }
-
+.cancer:hover{
+    filter:invert(100);
+    transition: 0.25s;
+    }
 #lucky-strike-wrapper{
     position: absolute;
     width: 572px;
@@ -58,7 +72,10 @@ top: 121px;
 
 }
 }
-
+.lucky-strike:hover{
+    filter:invert(100);
+    transition: 0.25s;
+    }
 @media(max-width:500px){
 .newport{
     width: 1000px;
@@ -79,3 +96,4 @@ top: 121px;
 
 
 }
+
