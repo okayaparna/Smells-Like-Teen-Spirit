@@ -139,6 +139,7 @@ transition: 0.25s;
     width: 700px;
     top: 2700px;
     left: 300px;
+    padding-bottom: 10%;
 }
 a:-webkit-any-link {
     color: rgb(255, 0, 0);
