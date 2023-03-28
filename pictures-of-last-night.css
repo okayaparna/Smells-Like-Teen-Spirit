@@ -28,7 +28,20 @@
     border: 4px ridge #d8d8d8;
     position: absolute !important;
     top: 30vh;
-    left: 55vw;
+    left: 75vw;
+    z-index: 11000;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #fff;
+}
+.show-box-3 {
+    /* width: 22vw; */
+    /* height: 80vh; */
+    border: 4px ridge #d8d8d8;
+    position: absolute !important;
+    top: 120vh;
+    left: 28vw;
     z-index: 11000;
     padding-top: 0;
     padding-bottom: 0;
@@ -47,6 +60,12 @@
     width: 100%;
     top: 0;
 }
+.show-box-3 .windows-header-wrapper {
+    padding: 2px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
 .windows-header-wrapper {
     padding: 2px;
     background: rgb(51,78,165);
@@ -60,6 +79,10 @@
     font-size: 14px;
 }
 .show-box-2 .windows-header-wrapper .window-title {
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 14px;
+}
+.show-box-3 .windows-header-wrapper .window-title {
     font-family: 'GT Pressura Mono', sans-serif;
     font-size: 14px;
 }
@@ -92,9 +115,7 @@ img, object, embed {
     overflow: scroll;
 }
 .show-box-2 .look-content {
-    height: 90vh
-vh
-;
+    height: 90vh;
     overflow: scroll;
 }
 
