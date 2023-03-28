@@ -36,6 +36,12 @@ display: block;
             background-color: black;
             margin-top: 10%;
         }
+        .sketchfab-embed-wrapper-2{
+            display:none;
+        }
+        .sketchfab-embed-wrapper{
+            display:none;
+        }
 }
 
 @media(min-width:700px){
