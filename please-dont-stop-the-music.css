@@ -6,6 +6,12 @@
     display: none;
 }
 
+#playlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+}
 @media(max-width:500px){
     .sketchfab-embed-wrapper{
         display: none;
@@ -13,5 +19,8 @@
         .sketchfab-embed-wrapper-mobile{
 display: block;
         }
+        #playlist{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
 }
-
