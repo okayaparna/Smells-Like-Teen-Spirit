@@ -136,16 +136,26 @@ img, object, embed {
     .show-box {
         width: 70vw;}
   .show-box-2{
-    top: 80vh;
+    top: 100vh;
     left: 15vw;
     width: 70vw;
+    margin-top: 20%;
   }  
   .show-box-3{
-    top: 130vh;
+    top: 200vh;
     left: 15vw;
     width: 70vw;
+    margin-top: 20%;
   }  
-
+  .show-box .windows-header-wrapper .window-title {
+    font-size: 10px;
+}
+.show-box-2 .windows-header-wrapper .window-title {
+    font-size: 10px;
+}
+.show-box-3 .windows-header-wrapper .window-title {
+    font-size: 10px;
+}
 }
 
 @media(min-width:700px){
