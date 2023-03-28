@@ -1,0 +1,53 @@
+.music{
+    display: none;
+}
+
+.sketchfab-embed-wrapper-mobile{
+    display: none;
+}
+
+#playlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.dj-booth{
+    border-style: solid;
+    border-radius: 35px;
+    border-width: 5px;
+    border-color: black;
+    width: 1440px;
+    height: 1030px;
+    background-color: black;
+    margin-top: 10%;
+}
+
+
+
+
+
+@media(max-width:500px){
+    .sketchfab-embed-wrapper{
+        display: none;
+        }
+        .sketchfab-embed-wrapper-mobile{
+display: block;
+        }
+        #playlist{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .dj-booth{
+            width: 350px;
+            height: 500px;
+            border-style: solid;
+            border-radius: 35px;
+            border-width: 5px;
+            border-color: black;
+            z-index:300;
+            background-color: black;
+            margin-top: 10%;
+        }
+}
