@@ -175,6 +175,13 @@ a:-webkit-any-link {
 .show-box-3 .windows-header-wrapper .window-title {
     font-size: 10px;
 }
+#link-wrapper{
+    position: absolute;
+    width: 203px;
+    height: 103px;
+    left: 20vw;
+    top: 1400px;
+}
 }
 
 @media(min-width:700px){
