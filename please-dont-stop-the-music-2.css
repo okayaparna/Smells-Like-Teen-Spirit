@@ -13,17 +13,6 @@
     padding-top: 10px;
 }
 
-.dj-booth{
-    border-style: solid;
-    border-radius: 35px;
-    border-width: 5px;
-    border-color: black;
-    width: 1440px;
-    height: 1030px;
-    background-color: black;
-    margin-top: 10%;
-}
-
 
 
 
@@ -40,7 +29,7 @@ display: block;
             grid-template-columns: 1fr;
         }
         .dj-booth{
-            width: 350px;
+            width: 304px;
             height: 500px;
             border-style: solid;
             border-radius: 35px;
@@ -50,4 +39,19 @@ display: block;
             background-color: black;
             margin-top: 10%;
         }
+}
+
+@media(min-width:1440px){
+    .dj-booth{
+        border-style: solid;
+        border-radius: 35px;
+        border-width: 5px;
+        border-color: black;
+        width: 1440px;
+        height: 1030px;
+        background-color: black;
+        margin-top: 10%;
+    }
+    
+    
 }
