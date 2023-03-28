@@ -1,0 +1,12 @@
+.title{
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+@media(max-width:500px){
+    .title{
+        font-size: 20px;
+    padding-left: 30%;
+    margin-right: -30%;
+    }
+}

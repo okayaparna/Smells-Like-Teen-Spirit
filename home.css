@@ -43,6 +43,10 @@ z-index: -100;
 .highlight-link{
     color: red;
 }
+.highlight-link:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
 
 @media(max-width:500px){
     #cigg-wrapper{
@@ -150,6 +154,7 @@ width: 840px;
 height: auto;
 left: 300px;
 top: 1240px;
+padding-bottom: 10%;
     }
 }
 
