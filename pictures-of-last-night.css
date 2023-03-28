@@ -88,7 +88,7 @@
 }
 .window-title {
     font-size: 0.75vw;
-    line-height: 1.2vw;
+    line-height: 2vw;
     color: #fff;
     width: calc(100% - 120px);
     float: left;
