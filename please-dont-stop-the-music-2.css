@@ -2,6 +2,12 @@
     display: none;
 }
 
+.title{
+    font-family: 'GT Pressura Mono', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top:5%;
+}
 .sketchfab-embed-wrapper-mobile{
     display: none;
 }
@@ -13,6 +19,22 @@
     padding-top: 10px;
 }
 
+#link-wrapper{
+    position: absolute;
+width: 403px;
+height: 103px;
+padding-left: 40%;
+top: 2500px;
+padding-bottom: 10%;
+width:fit-content;
+}
+.linktohome{
+    background: #FF0000;
+    color: white;
+    font-family: 'GT Pressura Mono', sans-serif;
+border-radius: 35px;
+padding: 7%;
+}
 
 @media(max-width:500px){
     .sketchfab-embed-wrapper{
@@ -53,7 +75,7 @@ display: block;
 }
 }
 
-@media(min-width:1440px){
+@media(min-width:1000px){
     .dj-booth{
         border-style: solid;
         border-radius: 35px;
@@ -65,8 +87,18 @@ display: block;
         margin-top: 10%;
         z-index:300;
     }
-    
+    .sketchfab-embed-wrapper{
+        display: block;
+    }
     .sketchfab-embed-wrapper-2{
         display:none;
     }
+
+#playlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 20%;
+}
 }
