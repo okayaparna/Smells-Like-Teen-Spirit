@@ -26,7 +26,7 @@
     width: 30vw;
     /* height: 80vh; */
     border: 4px ridge #d8d8d8;
-    position: absolute !important;
+    position: absolute !important; 
     top: 30vh;
     left: 75vw;
     z-index: 11000;
