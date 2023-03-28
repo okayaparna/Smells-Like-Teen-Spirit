@@ -40,6 +40,10 @@ z-index: -100;
     padding-right: 10%;
 }
 
+.highlight-link{
+    color: red;
+}
+
 @media(max-width:500px){
     #cigg-wrapper{
         margin-left: -300px;
@@ -139,6 +143,13 @@ z-index: -100;
         left: 48px;
         top: 520px;
 
+    }
+    #narrative-wrapper{
+        position: absolute;
+width: 840px;
+height: auto;
+left: 300px;
+top: 1240px;
     }
 }
 
