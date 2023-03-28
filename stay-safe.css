@@ -142,4 +142,17 @@
 
   
 
-  
+  #link-wrapper{
+    position: absolute;
+width: 403px;
+height: 103px;
+left: 50vw;
+top: 2700px;
+}
+.linktohome{
+    background: #FF0000;
+    color: white;
+    font-family: 'GT Pressura Mono', sans-serif;
+border-radius: 35px;
+padding: 7%;
+}

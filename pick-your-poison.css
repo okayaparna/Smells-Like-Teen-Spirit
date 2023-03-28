@@ -5,6 +5,9 @@
     letter-spacing: -0.04em;
     text-align: center;
 }
+body{
+    cursor: url('fire.svg'),auto;
+}
 header{
     font-size: 20px;
     font-family: 'GT Pressura Mono', sans-serif;
